@@ -1,0 +1,48 @@
+﻿body {
+    background: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+
+/*START Navbar Rules*/
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link { /*Example of Descendant Selector*/
+   color: white;
+}
+
+#mainNavbar .nav-link:hover {   /*:hover is a pseudo selector, applies rule below when we "hover" our mouse over the element*/
+   color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+   color: #EA1C2C; /*Firehouse Red*/
+   font-size: 1.5rem; /*For Navbar brand, light font-weight (skinny text) looks better*/
+}
+/*END Navbar Rules*/
+
+#headingGroup span {
+   color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight:100;
+    font-size: 4rem;
+}
+
+/*Rules for responsive design; aka breakpoint*/
+@media (max-width: 1325px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+/*START MOC ABOUT SECTION*/
+#about h1 {
+    color: #EA1C2C;
+    font-size: 3rem;
+    font-weight:100;
+}
